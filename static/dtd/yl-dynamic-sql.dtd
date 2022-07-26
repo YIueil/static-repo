@@ -19,6 +19,8 @@
 <!ELEMENT filters (filter)*><!--过滤参数列表-->
 <!ELEMENT filter (#PCDATA)>
 <!ATTLIST filter
-        name CDATA #REQUIRED>
+        name CDATA #REQUIRED
+        left CDATA #IMPLIED
+        right CDATA #IMPLIED>
 
 <!ELEMENT endSql (#PCDATA)><!--尾接SQL-->
